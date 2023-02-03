@@ -27,9 +27,7 @@ function playRound(nextSequence) {
 
 function nextStep() {
     const tiles = ['red', 'green', 'blue', 'yellow'];
-    const random = tiles[Math.floor(Math.random() * tiles.length)];
-
-    return random;
+    return tiles[Math.floor(Math.random() * tiles.length)];
 }
 
 function nextRound() {
