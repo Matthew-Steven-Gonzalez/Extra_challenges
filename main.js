@@ -46,3 +46,4 @@ function startGame() {
 }
 
 startButton.addEventListener('click', startGame);
+
