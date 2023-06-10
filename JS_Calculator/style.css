@@ -1,0 +1,22 @@
+#buttons{
+    width: 35%;
+    max-height: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+#inputs{
+    max-height: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+#buttons button{
+    min-width: 35px;
+    min-height: 25px;
+}
+
