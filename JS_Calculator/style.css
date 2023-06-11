@@ -1,3 +1,7 @@
+#calculator{
+
+}
+
 #buttons{
     width: 35%;
     max-height: 45px;
@@ -8,11 +12,9 @@
 }
 
 #inputs{
-    max-height: 45px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    flex-wrap: wrap;
     margin: auto auto;
+    display: flex;
+    align-items: center;
 }
 
 #buttons button{
