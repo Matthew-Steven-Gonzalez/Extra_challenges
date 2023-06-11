@@ -1,20 +1,21 @@
 #calculator{
-
+    margin-top: 2%;
 }
 
 #buttons{
-    width: 35%;
+    width: 29.6%;
     max-height: 45px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     margin: auto auto;
 }
 
 #inputs{
+    min-height: 35px;
     margin: auto auto;
     display: flex;
-    align-items: center;
+    justify-content: center
 }
 
 #buttons button{
