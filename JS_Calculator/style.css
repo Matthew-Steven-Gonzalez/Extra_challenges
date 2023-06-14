@@ -1,10 +1,14 @@
 #calculator{
+    min-height: 350px;
+    min-width: 275px;
     margin-top: 2%;
+    margin-right: 35%;
+    margin-left: 35%;
     background-color: lightslategrey;
 }
 
 #buttons{
-    width: 29.6%;
+    padding: 0 25px;
     max-height: 45px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -13,6 +17,8 @@
 }
 
 #inputs{
+    font-size: 28px;
+    padding-top: 25px;
     min-height: 35px;
     margin: auto auto;
     display: flex;
